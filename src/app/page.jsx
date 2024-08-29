@@ -122,7 +122,7 @@ const Onboard = () => {
 
 
     localStorage.setItem("userName20", "MICHAEL PAULA");
-    localStorage.setItem("userName21", "AIYAMU JOSE");
+    localStorage.setItem("userName21", "IYAMU JOSE");
 
     localStorage.setItem("admin", "SSEDUTECHUB");
     localStorage.setItem("password", "080808");
@@ -171,6 +171,8 @@ const Onboard = () => {
       (loginName === storedUserName14 && loginPassword === storedUserPassword) ||
       (loginName === storedUserName15 && loginPassword === storedUserPassword) ||
       (loginName === storedUserName16 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName17 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName18 && loginPassword === storedUserPassword) ||
       (loginName === storedUserName19 && loginPassword === storedUserPassword) ||
       (loginName === storedUserName20 && loginPassword === storedUserPassword) ||
       (loginName === storedUserName21 && loginPassword === storedUserPassword) ||
@@ -285,7 +287,7 @@ const Onboard = () => {
                 </p>
                 <br />
                 <p className="text">
-                  &copy;{new Date().getFullYear()} SSETH. All Rights Reserved
+                  &copy;{new Date().getFullYear()} SSEDUTECHUB. All Rights Reserved
                 </p>
               </div>
             </form>
@@ -374,7 +376,7 @@ const Onboard = () => {
                 </p>
                 <br />
                 <p className="text">
-                  &copy;{new Date().getFullYear()} SSETH. All Rights Reserved
+                  &copy;{new Date().getFullYear()} SSEDUTECHUB. All Rights Reserved
                 </p>
               </div>
             </form>
