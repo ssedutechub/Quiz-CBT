@@ -85,27 +85,27 @@ const Page = () => {
     // });
   };
   const goGraphicsDesign = () => {
-    router.push("/showErrorQuiz");
-    // Swal.fire({
-    //   title: "Are you readddy?",
-    //   text: "😎",
-    //   icon: "info",
-    //   showCancelButton: true,
-    //   confirmButtonText: "Yes, I'm in",
-    //   cancelButtonText: "No",
-    //   reverseButtons: true,
-    // }).then(function (result) {
-    //   if (result.value) {
-    //     Swal.fire(
-    //       "Happy Hacking!",
-    //       "Unlocking knowledge at the speed of thought",
-    //       "success"
-    //     );
-    //     router.push("./quiz/graphics");
-    //   } else if (result.dismiss === "cancel") {
-    //     Swal.fire("Cancelled!", "You can come back when ready!", "error");
-    //   }
-    // });
+    // router.push("/showErrorQuiz");
+    Swal.fire({
+      title: "Are you readddy?",
+      text: "😎",
+      icon: "info",
+      showCancelButton: true,
+      confirmButtonText: "Yes, I'm in",
+      cancelButtonText: "No",
+      reverseButtons: true,
+    }).then(function (result) {
+      if (result.value) {
+        Swal.fire(
+          "Happy Hacking!",
+          "Unlocking knowledge at the speed of thought",
+          "success"
+        );
+        router.push("./quiz/graphics");
+      } else if (result.dismiss === "cancel") {
+        Swal.fire("Cancelled!", "You can come back when ready!", "error");
+      }
+    });
   };
   const goUiUX = () => {
     Swal.fire({

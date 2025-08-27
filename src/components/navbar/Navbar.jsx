@@ -30,11 +30,11 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.logo}>
-        SSETH
+        SSEDUTECHUB
       </Link>
       <div className={styles.links}>
         <DarkModeToggle />
-        <h3 style={{textAlign: "center"}}>Hi {user}</h3>
+        <h3 style={{textAlign: "center"}}>Hello, {user}</h3>
         <button className={styles.logout} onClick={logOut}>
           Logout
         </button>

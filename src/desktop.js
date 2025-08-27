@@ -47,7 +47,7 @@ const quizData = [
   },
   {
     question: "The operator for Multiplication in MS Excel is",
-    options: ["+", "-", "/", "*"],
+    options: ["+", "x", "/", "*"],
     correctAnswer: "*",
   },
   {
@@ -136,19 +136,19 @@ const quizData = [
     correctAnswer: "Spreadsheet",
   },
   {
-    question: "The number of Rows in Excel worksheet is",
-    options: ["256", "65536", "1002", "349"],
-    correctAnswer: "256",
+    question: "File can be transfered from the Phone to Laptop using all EXCEPT _____",
+    options: ["USB cord", "Ethernet cord", "Bluettooth", "Xender"],
+    correctAnswer: "Ethernet cord",
   },
   {
-    question: "The number of Columns in Excel worksheet is",
-    options: ["256", "65536", "1002", "349"],
-    correctAnswer: "65536",
+    question: "Page orientation can either be ____ or _____",
+    options: ["Vertical or Horizontal", "Up or Down", "Landscape or Portrait", "No idea"],
+    correctAnswer: "Landscape or Portrait",
   },
   {
-    question: "To begin a formula in Excel, it must start with ____ sign",
-    options: ["+", ">", "?", "="],
-    correctAnswer: "=",
+    question: "Which options shows Toggle case",
+    options: ["SSEDUTECHUB", "Ssedutechub", "ssedutechub", "SeDuTeChUb"],
+    correctAnswer: "SeDuTeChUb",
   },
   {
     question: "In Excel, cell A3 is located where",
@@ -296,8 +296,133 @@ const quizData = [
   },
   {
     question: "Which formula will you use to calculate the Total from cell B2 to G2?",
-    options: ["=sum(B2:G2)", "=sum(B2+G2)", "=Total(B2:G2)", "=Toatl(B2+G2)"],
+    options: ["=sum(B2:G2)", "=sum(B2+G2)", "=Total(B2:G2)", "=Total(B2+G2)"],
     correctAnswer: "=sum(B2:G2)",
+  },
+    {
+    question: "Which file extension is used for PowerPoint presentations?",
+    options: [".docx", ".xlsx", ".pptx", ".txt"],
+    correctAnswer: ".pptx"
+  },
+  {
+    question: "In PowerPoint, each page is called a:",
+    options: ["Slide", "Sheet", "Page", "Card"],
+    correctAnswer: "Slide"
+  },
+  {
+    question: "Which tab is used to change the design of a PowerPoint presentation?",
+    options: ["Insert", "Design", "Animations", "View"],
+    correctAnswer: "Design"
+  },
+  {
+    question: "Which shortcut is used to start a slideshow from the beginning?",
+    options: ["F5", "F7", "Shift + F5", "Ctrl + F5"],
+    correctAnswer: "F5"
+  },
+  {
+    question: "Which feature is used to apply movement to text and images in PowerPoint?",
+    options: ["Animations", "Transitions", "Themes", "Layouts"],
+    correctAnswer: "Animations"
+  },
+   {
+    question: "In Excel, what is a cell?",
+    options: ["The box where a row and column meet", "A type of formula", "A worksheet name", "A chart type"],
+    correctAnswer: "The box where a row and column meet"
+  },
+  {
+    question: "Which paper size is the biggest from the options?",
+    options: ["A1", "A3", "A4", "A5"],
+    correctAnswer: "A1"
+  },
+  {
+    question: "Which file extension is used for Excel workbooks?",
+    options: [".docx", ".xlsx", ".pptx", ".txt"],
+    correctAnswer: ".xlsx"
+  },
+  {
+    question: "Which function is used to add numbers in Excel?",
+    options: ["ADD()", "TOTAL()", "SUM()", "PLUS()"],
+    correctAnswer: "SUM()"
+  },
+  {
+    question: "What does the AutoFill feature do in Excel?",
+    options: ["Automatically fills a series of data", "Saves your work", "Deletes blank cells", "Opens new sheets"],
+    correctAnswer: "Automatically fills a series of data"
+  },
+   {
+    question: "Which tab in Microsoft Word contains font settings?",
+    options: ["Home", "Insert", "Layout", "Review"],
+    correctAnswer: "Home"
+  },
+  {
+    question: "What is the default file extension for Word documents?",
+    options: [".pdf", ".txt", ".docx", ".xls"],
+    correctAnswer: ".docx"
+  },
+  {
+    question: "Which shortcut is used to save a document?",
+    options: ["Ctrl + S", "Ctrl + P", "Ctrl + A", "Ctrl + Z"],
+    correctAnswer: "Ctrl + S"
+  },
+  {
+    question: "Which option is used to check spelling in Word?",
+    options: ["Spelling & Grammar", "Proofing", "Word Count", "Review"],
+    correctAnswer: "Spelling & Grammar"
+  },
+  {
+    question: "Which ribbon tab is used to insert pictures in Word?",
+    options: ["Insert", "Design", "Layout", "Home"],
+    correctAnswer: "Insert"
+  },
+    {
+    question: "Which key combination is used to open File Explorer in Windows?",
+    options: ["Windows + E", "Ctrl + E", "Alt + E", "Shift + E"],
+    correctAnswer: "Windows + E"
+  },
+  {
+    question: "In File Explorer, which option is used to create a new folder?",
+    options: ["File → New → Folder", "Right-click → New → Folder", "Ctrl + N", "Insert → Folder"],
+    correctAnswer: "Right-click → New → Folder"
+  },
+  // {
+  //   question: "Which file extension is for a Word document?",
+  //   options: [".pptx", ".xlsx", ".docx", ".jpg"],
+  //   correctAnswer: ".docx"
+  // },
+  {
+    question: "What is the purpose of the 'Recycle Bin'?",
+    options: ["Store temporary files", "Store deleted files before permanent removal", "Store programs", "Increase storage size"],
+    correctAnswer: "Store deleted files before permanent removal"
+  },
+  {
+    question: "Which action is used to rename a file in File Explorer?",
+    options: ["Right-click and select Rename", "Open and save", "Move to Documents", "Double-click the file"],
+    correctAnswer: "Right-click and select Rename"
+  },
+   {
+    question: "Which key combination is commonly used to copy text?",
+    options: ["Ctrl + X", "Ctrl + V", "Ctrl + C", "Ctrl + Z"],
+    correctAnswer: "Ctrl + C"
+  },
+  {
+    question: "Which part of the laptop controls the mouse pointer without using an external mouse?",
+    options: ["Touchpad", "Keyboard", "Webcam", "Speakers"],
+    correctAnswer: "Touchpad"
+  },
+  {
+    question: "What is the function of the laptop's battery?",
+    options: ["Store files", "Provide power when unplugged", "Increase speed", "Install software"],
+    correctAnswer: "Provide power when unplugged"
+  },
+  {
+    question: "Which button is used to turn on a laptop?",
+    options: ["Shift", "Enter", "Power", "Tab"],
+    correctAnswer: "Power"
+  },
+  {
+    question: "Which key combination is used to paste copied content?",
+    options: ["Ctrl + C", "Ctrl + V", "Ctrl + Z", "Ctrl + X"],
+    correctAnswer: "Ctrl + V"
   },
 ];
 export default quizData;

@@ -98,31 +98,56 @@ const Onboard = () => {
   // this is only for the bootcamp. comment this after the bootcamp
   //
   if (typeof window !== "undefined") {
-    localStorage.setItem("userName1", "AKWUOLE MICHAEL");
-    localStorage.setItem("userName2", "OLADITAN BASIT");
-    localStorage.setItem("userName3", "OYATOLU WARIZ");
-    localStorage.setItem("userName4", "OYATOLU JAMIU");
-    localStorage.setItem("userName5", "CHUKWUDI MARVIN");
-    localStorage.setItem("userName6", "ABIMBOLA DAVID");
-    localStorage.setItem("userName7", "ABIMBOLA CHRISTIANA");
-    localStorage.setItem("userName8", "GHANDI WEAGLE");
-    localStorage.setItem("userName9", "CHUKWUDI BONAVENTURE");
-    localStorage.setItem("userName10", "MISBAUDEEN MARYAM");
-    localStorage.setItem("userName11", "ISHOLA FAROUK");
-    
+    localStorage.setItem("userName1", "ODUTOLA ISRAEL");
+    localStorage.setItem("userName2", "ELIJAH FAVOUR");
+    localStorage.setItem("userName3", "SAVIOUR BLESSING");
+    localStorage.setItem("userName4", "AIYEDE DAVID");
+    localStorage.setItem("userName5", "AWOLUMATE AFEEZ");
+    localStorage.setItem("userName6", "OMORUYI NOSAKHARE");
+    localStorage.setItem("userName7", "AFUWAPE TOBILIOBA");
+    localStorage.setItem("userName8", "GHANDHI WEAGLE");
+    localStorage.setItem("userName9", "OGUNSEITAN GOLD");
 
-    localStorage.setItem("userName12", "AKHIDIME KELLY");
-    localStorage.setItem("userName13", "DUROSANYA TUNMISE");
-    localStorage.setItem("userName14", "OLADITAN RIDWAN");
-    localStorage.setItem("userName15", "ONANI FRANCIS");
-    localStorage.setItem("userName16", "OLADITAN BABATUNDE");
-    localStorage.setItem("userName17", "OTOAYE MUBARAK");
-    localStorage.setItem("userName18", "MISBAUDEEN SUMAYYAH");
-    localStorage.setItem("userName19", "NWACHUKWU ESTHER");
+    localStorage.setItem("userName10", "AKWUOLE MICHAEL");
+    localStorage.setItem("userName11", "OLADITAN BASIT");
+    localStorage.setItem("userName12", "OYATOLU WARIZ");
+    localStorage.setItem("userName13", "OYATOLU JAMIU");
+    localStorage.setItem("userName14", "CHUKWUDI MARVIN");
+    localStorage.setItem("userName15", "ABIMBOLA DAVID");
+    localStorage.setItem("userName16", "ABIMBOLA CHRISTIANA");
+    localStorage.setItem("userName17", "CHUKWUDI BONAVENTURE");
+    localStorage.setItem("userName18", "MISBAUDEEN MARYAM");
+    localStorage.setItem("userName19", "ISHOLA FAROUK");
 
 
-    localStorage.setItem("userName20", "MICHAEL PAULA");
-    localStorage.setItem("userName21", "IYAMU JOSE");
+    localStorage.setItem("userName20", "AKHIDIME KELLY");
+    localStorage.setItem("userName21", "DUROSANYA TUNMISE");
+    localStorage.setItem("userName22", "OLADITAN RIDWAN");
+    localStorage.setItem("userName23", "ONANI FRANCIS");
+    localStorage.setItem("userName24", "OLADITAN BABATUNDE");
+    localStorage.setItem("userName25", "OTOAYE MUBARAK");
+    localStorage.setItem("userName26", "MISBAUDEEN SUMAYYAH");
+    localStorage.setItem("userName27", "NWACHUKWU ESTHER");
+
+
+    localStorage.setItem("userName28", "MICHAEL PAULA");
+    localStorage.setItem("userName29", "IYAMU JOSE");
+
+    localStorage.setItem("userName30", "IKE DANIEL");
+    localStorage.setItem("userName31", "OLUDE GREAT");
+    localStorage.setItem("userName32", "ASHIYANBI INIOLUWA");
+    localStorage.setItem("userName33", "ODENIGBO MARYQUEEN");
+    localStorage.setItem("userName34", "ODENIGBO EMMANUELLA");
+    localStorage.setItem("userName35", "ASHIYANBI OLUWASEUNFUNMI");
+
+    localStorage.setItem("userName36", "OBIALO FRANCIS");
+    localStorage.setItem("userName37", "OSSAI SEBASTINE");
+    localStorage.setItem("userName38", "AJAYI-BEMBE MABEL");
+    localStorage.setItem("userName39", "UKWAJINDU EMMANUEL");
+    localStorage.setItem("userName40", "MARTINS CHRISTIANA");
+    localStorage.setItem("userName41", "LARO LATEEF");
+    localStorage.setItem("userName42", "AMBA TREASURE");
+    localStorage.setItem("userName43", "AWODELE MISTURA");
 
     localStorage.setItem("admin", "SSEDUTECHUB");
     localStorage.setItem("password", "080808");
@@ -151,6 +176,28 @@ const Onboard = () => {
     const storedUserName19 = localStorage.getItem("userName19");
     const storedUserName20 = localStorage.getItem("userName20");
     const storedUserName21 = localStorage.getItem("userName21");
+    const storedUserName22 = localStorage.getItem("userName22");
+    const storedUserName23 = localStorage.getItem("userName23");
+    const storedUserName24 = localStorage.getItem("userNam24");
+    const storedUserName25 = localStorage.getItem("userName25");
+    const storedUserName26 = localStorage.getItem("userName26");
+    const storedUserName27 = localStorage.getItem("userName27");
+    const storedUserName28 = localStorage.getItem("userName28");
+    const storedUserName29 = localStorage.getItem("userName29");
+    const storedUserName30 = localStorage.getItem("userName30");
+    const storedUserName31 = localStorage.getItem("userName31");
+    const storedUserName32 = localStorage.getItem("userName32");
+    const storedUserName33 = localStorage.getItem("userName33");
+    const storedUserName34 = localStorage.getItem("userName34");
+    const storedUserName35 = localStorage.getItem("userName35");
+    const storedUserName36 = localStorage.getItem("userName36");
+    const storedUserName37 = localStorage.getItem("userName37");
+    const storedUserName38 = localStorage.getItem("userName38");
+    const storedUserName39 = localStorage.getItem("userName39");
+    const storedUserName40 = localStorage.getItem("userName40");
+    const storedUserName41 = localStorage.getItem("userName41");
+    const storedUserName42 = localStorage.getItem("userName42");
+    const storedUserName43 = localStorage.getItem("userName43");
     const storedAdmin = localStorage.getItem("admin");
 
     const storedUserPassword = localStorage.getItem("password");
@@ -176,6 +223,28 @@ const Onboard = () => {
       (loginName === storedUserName19 && loginPassword === storedUserPassword) ||
       (loginName === storedUserName20 && loginPassword === storedUserPassword) ||
       (loginName === storedUserName21 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName22 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName23 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName24 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName25 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName26 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName27 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName28 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName29 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName30 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName31 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName32 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName33 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName34 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName35 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName36 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName37 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName38 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName39 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName40 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName41 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName42 && loginPassword === storedUserPassword) ||
+      (loginName === storedUserName43 && loginPassword === storedUserPassword) ||
       (loginName === storedAdmin && loginPassword === storedUserPassword)
     ) {
       Swal.fire({
@@ -366,7 +435,7 @@ const Onboard = () => {
                   type="submit"
                   value="Sign Up"
                   className="sign-btn"
-                  // onClick={signUp}
+                // onClick={signUp}
                 />
 
                 <p className="text">

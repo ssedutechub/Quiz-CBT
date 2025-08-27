@@ -52,7 +52,7 @@ const Page = () => {
             <p>
               Uh oh! Login failed. Please check your credentials.. and go back
               to try again! <br />
-              SSETH Cares!!
+              SSEDUTECHUB Cares!!!
             </p>
 
             <button onClick={goHome}>Go Home!</button>
